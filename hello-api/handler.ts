@@ -2,7 +2,7 @@
 
 import { APIGatewayEvent } from "aws-lambda";
 
-export const handler = async (event: APIGatewayEvent) => {
+export const hello = async (event: APIGatewayEvent) => {
   if (!event.queryStringParameters || !event.queryStringParameters.name) {
     return { statusCode: 404, body: "Name not found" };
   }
