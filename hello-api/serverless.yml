@@ -25,10 +25,6 @@ provider:
   runtime: nodejs16.x
   region: ap-northeast-2
 
-# you can overwrite defaults here
-#  stage: dev
-#  region: us-east-1
-
 # you can add statements to the Lambda function's IAM Role here
 #  iam:
 #    role:
@@ -62,10 +58,6 @@ provider:
 functions:
   hello:
     handler: handler.hello
-    events:
-      - httpApi:
-          path: /hello
-          method: get
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
 #    Check the event documentation for details
