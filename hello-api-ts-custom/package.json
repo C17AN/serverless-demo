@@ -1,0 +1,13 @@
+{
+  "name": "hello-api-ts-custom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "16",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.114"
+  }
+}
