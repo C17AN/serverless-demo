@@ -8,7 +8,7 @@ export const hello = async (event: APIGatewayEvent) => {
   }
   return {
     statusCode: 200,
-    body: `Hello, ${event.queryStringParameters.name}}`,
+    body: `Hello, ${event.queryStringParameters.name}`,
   };
 
   // Use this code if you don't use the http event with the LAMBDA-PROXY integration
