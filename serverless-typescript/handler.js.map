@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "handler.js",
+  "sourceRoot": "",
+  "sources": [
+    "handler.ts"
+  ],
+  "names": [],
+  "mappings": "AAAA,MAAM,CAAC,MAAM,KAAK,GAAG,KAAK,EAAE,KAAK,EAAE,EAAE;IACnC,OAAO;QACL,OAAO,EAAE,SAAS,KAAK,CAAC,IAAI,CAAC,IAAI,6CAA6C;QAC9E,KAAK;KACN,CAAC;AACJ,CAAC,CAAC"
+}
