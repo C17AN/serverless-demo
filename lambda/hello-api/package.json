@@ -1,0 +1,13 @@
+{
+  "name": "hello-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "transpile": "tsc"
+  },
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.114",
+    "aws-lambda": "^1.0.7"
+  }
+}
